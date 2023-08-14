@@ -1,6 +1,6 @@
 # imdbcloneasgnmnt
 imdb clone using html css vanila js
-IMDB clone
+IMDB clone vie at  https://adarshal.github.io/imdbcloneasgnmnt/
 
 ![image](https://github.com/adarshal/imdbcloneasgnmnt/assets/89533221/afdb92d1-aab1-4117-bb2e-b7fc3fa4fda4)
 
