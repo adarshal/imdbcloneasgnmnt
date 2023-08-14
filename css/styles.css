@@ -1,0 +1,136 @@
+body {
+  /* background-color: #d0f7df; */
+  background-color: #0c1027;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+/* // bootstrap css modified */
+.mt-n1 {
+  margin-top: -0.25rem !important;
+}
+
+/* bootstrap modified till above */
+:root {
+  --bg-purple: #0c1027;
+}
+
+.background-purple {
+  background-color: var(--bg-purple);
+  /* color: white; */
+}
+
+/* &::-webkit-media-controls-enclosure {
+    border-radius: 5px;
+    background-color: green;
+} */
+header {}
+
+.nav-left {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/* search-bar button:hover{
+color: green;
+background-color: red;
+} */
+.profile-container {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.profile-container img {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%
+}
+
+/* Aside section */
+.queue-list li {
+  margin: 1%;
+  padding: 5%;
+}
+
+.queue-list li i {
+  margin-right: 1%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: -10%;
+}
+
+main {}
+
+.top-genere-sugestion .card {
+  /* font-family: Papyrus, fantasy; */
+  font-family: sans-serif;
+  transition: all 0.5s ease-out;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.box .card {
+  height: 100;
+  width: 100;
+}
+
+.top-movies-sugestion .card:hover {
+  transform: scale(1.05);
+}
+
+.detail-movie-plot {
+  color: azure;
+}
+
+.detail-movie {
+  color: azure;
+}
+
+.li a {
+  text-decoration: none;
+}
+
+.contai img{
+margin: auto;
+}
+
+.detail-movie {
+  margin: auto;
+}
+
+.plot {
+  /* justify-content: center; */
+  color: azure;
+padding: 5;
+margin: 2rem;
+}
+
+.artist-offcanvas {
+  background-color: #0c1027;
+  color: white;
+}
+
+.artist-offcanvas img {
+  height: 5rem;
+  width: 5rem;
+}
+ol li{
+padding: 2;
+margin: 2;
+display: flex;
+}
+ol li button{
+padding-top: 2;
+margin-top: 2rem;
+justify-content: end;
+height: auto;
+  line-height: 1.2;
+}
